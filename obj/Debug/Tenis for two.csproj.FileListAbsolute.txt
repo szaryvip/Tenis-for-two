@@ -1,10 +1,10 @@
 D:\programowanie visual studio\Tenis for two\Tenis for two\bin\Debug\Tenis for two.exe.config
 D:\programowanie visual studio\Tenis for two\Tenis for two\bin\Debug\Tenis for two.exe
 D:\programowanie visual studio\Tenis for two\Tenis for two\bin\Debug\Tenis for two.pdb
-D:\programowanie visual studio\Tenis for two\Tenis for two\obj\Debug\Tenis for two.csprojAssemblyReference.cache
 D:\programowanie visual studio\Tenis for two\Tenis for two\obj\Debug\Tenis_for_two.Form1.resources
 D:\programowanie visual studio\Tenis for two\Tenis for two\obj\Debug\Tenis_for_two.Properties.Resources.resources
 D:\programowanie visual studio\Tenis for two\Tenis for two\obj\Debug\Tenis for two.csproj.GenerateResource.cache
 D:\programowanie visual studio\Tenis for two\Tenis for two\obj\Debug\Tenis for two.csproj.CoreCompileInputs.cache
 D:\programowanie visual studio\Tenis for two\Tenis for two\obj\Debug\Tenis for two.exe
 D:\programowanie visual studio\Tenis for two\Tenis for two\obj\Debug\Tenis for two.pdb
+D:\programowanie visual studio\Tenis for two\Tenis for two\obj\Debug\Tenis for two.csprojAssemblyReference.cache

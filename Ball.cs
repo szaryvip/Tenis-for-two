@@ -19,7 +19,7 @@ namespace Tenis_for_two
         {
             size = width / 30;
             x = width / 2 - size/2;
-            y = height / 2 - size / 2-200;
+            y = height / 2 - size / 2;
         }
         public void draw(Graphics g, Brush b)
         {
@@ -27,13 +27,13 @@ namespace Tenis_for_two
         }
         public void HitV()//change vertical move
         {
-            if (move_vertical == "down") { move_vertical = "up"; }
-            if (move_vertical == "up") { move_vertical = "down"; }
+            if (move_vertical == "down"&&(y+size)>(400-size/2)) { move_vertical = "up"; }
+            if (move_vertical == "up"&&y<(0+size/2)) { move_vertical = "down"; }
         }
         public void Hit()//change move from right to left and reversed
         {
-            if (move == "right") { move = "left"; }
-            if (move == "left") { move = "right"; }
+            if (move == "right" && (x+size)>575) { move = "left"; v += 2; }
+            if (move == "left" && x<25) { move = "right"; v += 2; }
         }
         
         public void Move()
@@ -58,6 +58,12 @@ namespace Tenis_for_two
                 x -= v;
                 y -= v;
             }
+        }
+        public bool isHit(int yplat1, int heightplat1, int yplat2, int heightplat2)
+        {
+            if (x<300 &&(y + size) > yplat1 && y < (yplat1 + heightplat1)) return true;
+            else if(x>300 && (y + size) > yplat2 && y < (yplat2 + heightplat2)) return true;
+            else return false;
         }
     }
 }

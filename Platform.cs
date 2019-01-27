@@ -21,15 +21,17 @@ namespace Tenis_for_two
         }
         public void Moves()
         {
-            if(move=="up")
-            {
-                y = y - 30;
-            }
-            if(move=="down")
-            {
-                y = y + 30;
-            }
-            if( y < 11 || y > 389 ) { move = "0"; }
+            
+            
+                if (move == "up" && y>30)
+                {
+                    y = y - 30;
+                }
+                if (move == "down" && y<(370-height))
+                {
+                    y = y + 30;
+                }
+            
         }
         public void draw(Graphics g, Brush b)
         {
